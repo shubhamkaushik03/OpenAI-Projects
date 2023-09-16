@@ -17,7 +17,7 @@ from langchain.chains import RetrievalQA
 from langchain.document_loaders import TextLoader
 from langchain.vectorstores import Chroma
 import openai
-openai.api_key = "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"
+openai.api_key = "xyz"
 # openai.Model.list()
 import os
 os.environ['OPENAI_API_KEY'] = openai.api_key
